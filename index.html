@@ -33,10 +33,14 @@ var calculateConnectedUsers = function(id, direction) {
   var userData = {
     userType: "steamavchat",
 	id: Math.random()
-  
   }
   
-i = new InstoClient('81066f3a5c459a42a2397d1a0ff1090b', {
+  var userQuery = {
+    userType: "steamavchat",
+  }
+  
+i = new InstoClient('81066f3a5c459a42a2397d1a0ff1090b', userData, userQuery, {
+	
    // when connect
     	onConnect: function(data) {
     		$('#connected').html(calculateConnectedUsers(data._id, "in"));
@@ -160,7 +164,7 @@ i = new InstoClient('81066f3a5c459a42a2397d1a0ff1090b', {
 	  player.loadVideoById(videoId);
 	  }
 
-	  
+	 
 	setInterval(function () {
 	state = player.getPlayerState();
 	currentTime = 0;
