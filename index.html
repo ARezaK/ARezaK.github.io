@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <body>
+  <form>
+	<div id='inputvideo'>
+		Video Id:<input type="text" name="videoid"> <button onclick="changeVideo(this.form.videoid.value)" type="button">Watch Video</button><br>
+	</div>
+	</form>
+	<br>
+	# connected
+	<div id='connected' class='connected'>
+	
+	</div>
+    <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+    <div id="player"></div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://api.insto.co.uk:3000/lib/client.js"></script>
+	
+	<script>
+	var _users = {};
+var calculateConnectedUsers = function(id, direction) {
+	if (direction == "out" && id) {
+		if (_users[id]) {
+			delete _users[id];
+		}
+	} else if (direction == "in" && id) {
+		_users[id] = true;
+	}
+	return Object.keys(_users).length;
+}
+             // user data
+  var userData = {
+    userType: "steamavchat",
+	id: Math.random()
+  
+  }
+  
+i = new InstoClient('81066f3a5c459a42a2397d1a0ff1090b', {
+   // when connect
+    	onConnect: function(data) {
+    		$('#connected').html(calculateConnectedUsers(data._id, "in"));
+    		
+    	},
+    	// connected users
+    	onConnectedUsers: function(data) {
+    		for (var u in data.users) {
+        	$('#connected').html(calculateConnectedUsers(data.users[u]._id, "in"));
+        }
+    	},
+    	// for each notification
+    	onNotification: function(data) {
+		console.log('notifcation');
+		console.log(data);
+		
+		
+		//if its our own id ignore urself
+		
+		if(data['id'] == userData['id']){
+			return
+		}
+		
+		//check if state is paused if it is then pause our video
+		if(data['state'] === 2){
+			player.pauseVideo()
+			return
+		}
+		
+		if(data['state'] === 1){
+			player.playVideo()
+		}
+		
+		//if state is playing, if our current time is > than recieved currenttime from other users slow ours down
+		ourCurrentTime = player.getCurrentTime();
+		
+		if(ourCurrentTime > 10 + data['currentTime']){
+		  currentPlaybackRate = player.getPlaybackRate()
+		  console.log('slowing down');
+		  console.log(currentPlaybackRate);
+		  suggestedPlaybackRate = 1.0;
+		  player.setPlaybackRate(suggestedPlaybackRate);
+		}
+		
+		//if state is playing, if our current time is < than recieved currenttime from other users speed up
+		
+		
+		if(ourCurrentTime < data['currentTime'] -10 ){
+		  currentPlaybackRate = player.getPlaybackRate()
+		  console.log('speeding up');
+		  console.log(currentPlaybackRate);
+		  suggestedPlaybackRate = 1.50;
+		  player.setPlaybackRate(suggestedPlaybackRate);
+		}
+		
+		// if we are withing 5 seconds of everyone else set it to 1.25
+		
+		if(data['currentTime'] -5 < ourCurrentTime && ourCurrentTime < data['currentTime'] + 5){
+		console.log('in good range');
+		suggestedPlaybackRate = 1.25
+		player.setPlaybackRate(suggestedPlaybackRate);
+		}
+		
+    		
+    	},
+    	// user connect
+    	onUserConnect: function(data) {
+    		$('#connected').html(calculateConnectedUsers(data._id, "in"));
+    	},
+    	// user disconnect
+    	onUserDisconnect: function(data) {
+    		$('#connected').html(calculateConnectedUsers(data._id, "out"));
+    	}
+    });
+
+	
+	
+      // 2. This code loads the IFrame Player API code asynchronously.
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      // 3. This function creates an <iframe> (and YouTube player)
+      //    after the API code downloads.
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '390',
+          width: '640',
+          videoId: 'M7lc1UVf-VE',
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      }
+	  
+	   function checkPlayerStatus(){
+		console.log(player.getPlayerState());
+	  }
+
+      // 4. The API will call this function when the video player is ready.
+      function onPlayerReady(event) {
+        event.target.playVideo();
+		
+
+      }
+
+      // 5. The API calls this function when the player's state changes.
+      //    The function indicates that when playing a video (state=1),
+      //    the player should play for six seconds and then stop.
+      var done = false;
+      function onPlayerStateChange(event) {
+	  done = true;
+		
+      }
+	  
+	  function changeVideo(videoId){
+	  player.loadVideoById(videoId);
+	  }
+
+	  
+	setInterval(function () {
+	state = player.getPlayerState();
+	currentTime = 0;
+	if(state === 1){
+	 console.log('playing');
+	 currentTime = player.getCurrentTime();
+	 console.log(currentTime);
+	 
+	}
+	if(state===2){
+	console.log('paused');
+	}
+	message = {
+	state: state,
+	currentTime: currentTime,
+	id: userData['id']
+	}
+	i.broadcast(message);
+	
+	}, 700);
+	  
+	  
+    </script>
+  </body>
+</html>
