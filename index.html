@@ -18,6 +18,7 @@
 	<script type="text/javascript" src="https://api.insto.co.uk:3000/lib/client.js"></script>
 	
 	<script>
+	var we_updated = true;
 	var _users = {};
 var calculateConnectedUsers = function(id, direction) {
 	if (direction == "out" && id) {
@@ -56,6 +57,7 @@ i = new InstoClient('81066f3a5c459a42a2397d1a0ff1090b', userData, userQuery, {
     	onNotification: function(data) {
 		console.log('notifcation');
 		console.log(data);
+		we_updated = false;
 		
 		
 		//if its our own id ignore urself
@@ -157,24 +159,26 @@ i = new InstoClient('81066f3a5c459a42a2397d1a0ff1090b', userData, userQuery, {
       var done = false;
       function onPlayerStateChange(event) {
      		done = true;
-		
-				state = player.getPlayerState();
-				currentTime = 0;
-				if(state === 1){
-				 console.log('playing');
-				 currentTime = player.getCurrentTime();
-				 console.log(currentTime);
-				 
-				}
-				if(state===2){
-				console.log('paused');
-				}
-				message = {
-				state: state,
-				currentTime: currentTime,
-				id: userData['id']
-				}
-				i.broadcast(message);
+     		if(we_updated){
+			state = player.getPlayerState();
+			currentTime = 0;
+			if(state === 1){
+			 console.log('playing');
+			 currentTime = player.getCurrentTime();
+			 console.log(currentTime);
+			 
+			}
+			if(state===2){
+			console.log('paused');
+			}
+			message = {
+			state: state,
+			currentTime: currentTime,
+			id: userData['id']
+			}
+			i.broadcast(message);
+     		}
+     		we_updated = true;
       }
 	  
 	  function changeVideo(videoId){
