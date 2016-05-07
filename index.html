@@ -156,8 +156,25 @@ i = new InstoClient('81066f3a5c459a42a2397d1a0ff1090b', userData, userQuery, {
       //    the player should play for six seconds and then stop.
       var done = false;
       function onPlayerStateChange(event) {
-	  done = true;
+     		done = true;
 		
+				state = player.getPlayerState();
+				currentTime = 0;
+				if(state === 1){
+				 console.log('playing');
+				 currentTime = player.getCurrentTime();
+				 console.log(currentTime);
+				 
+				}
+				if(state===2){
+				console.log('paused');
+				}
+				message = {
+				state: state,
+				currentTime: currentTime,
+				id: userData['id']
+				}
+				i.broadcast(message);
       }
 	  
 	  function changeVideo(videoId){
@@ -165,7 +182,7 @@ i = new InstoClient('81066f3a5c459a42a2397d1a0ff1090b', userData, userQuery, {
 	  }
 
 	 
-	setInterval(function () {
+	/*setInterval(function () {
 	state = player.getPlayerState();
 	currentTime = 0;
 	if(state === 1){
@@ -184,7 +201,7 @@ i = new InstoClient('81066f3a5c459a42a2397d1a0ff1090b', userData, userQuery, {
 	}
 	i.broadcast(message);
 	
-	}, 700);
+	}, 700);*/
 	  
 	  
     </script>
