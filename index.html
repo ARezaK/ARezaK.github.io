@@ -58,7 +58,10 @@ i = new InstoClient('81066f3a5c459a42a2397d1a0ff1090b', userData, userQuery, {
     	onNotification: function(data) {
 		console.log('notifcation');
 		console.log(data);
-		we_updated = false;
+		if (data.id == userData.id) {
+		  we_updated = true;
+		  return 0;
+		}
 		
 		
 		//if its our own id ignore urself
