@@ -58,26 +58,25 @@ i = new InstoClient('81066f3a5c459a42a2397d1a0ff1090b', userData, userQuery, {
     	onNotification: function(data) {
 		console.log('notifcation');
 		console.log(data);
-		if (data.id == userData.id) {
-		  we_updated = true;
-		  return 0;
-		}
-		
+		we_updated =false;
 		
 		//if its our own id ignore urself
-		
 		if(data['id'] == userData['id']){
+			// Reset we_updated so that we can know where the request came from
+			we_updated = true;
 			return
 		}
 		
 		//check if state is paused if it is then pause our video
 		if(data['state'] === 2){
-			player.pauseVideo()
+			player.pauseVideo();
+			// Reset we_updated so that we can know where the request came from
+			we_updated = true;
 			return
 		}
 		
 		if(data['state'] === 1){
-			player.playVideo()
+			player.playVideo();
 		}
 		
 		//if state is playing, if our current time is > than recieved currenttime from other users slow ours down
@@ -105,9 +104,9 @@ i = new InstoClient('81066f3a5c459a42a2397d1a0ff1090b', userData, userQuery, {
 		// if we are withing 5 seconds of everyone else set it to 1.50
 		
 		if(data['currentTime'] -3 < ourCurrentTime && ourCurrentTime < data['currentTime'] + 3){
-		console.log('in good range');
-		suggestedPlaybackRate = 1.50
-		player.setPlaybackRate(suggestedPlaybackRate);
+			console.log('in good range');
+			suggestedPlaybackRate = 1.50
+			player.setPlaybackRate(suggestedPlaybackRate);
 		}
 		
     		we_updated = true;
@@ -182,7 +181,7 @@ i = new InstoClient('81066f3a5c459a42a2397d1a0ff1090b', userData, userQuery, {
 			}
 			i.broadcast(message);
      		}
-     		we_updated = true;
+     		//we_updated = true;
       }
 	  
 	  function changeVideo(videoId){
