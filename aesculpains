@@ -1,0 +1,552 @@
+THE URL U NEED IS:
+http://www.med.wayne.edu/Aesculapians/ 
+
+Replace :
+https://raw.githubusercontent.com/ARezaK/monitoring/master/
+
+with url above
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="Keywords" content="" />
+<meta name="Description" content="" />
+<meta name="Author" content="Wayne State University - School of Medicine" />
+<meta name="robots" content="index,follow" />
+<title>School of Medicine - Aesculapians</title>
+<link rel="shortcut icon" href="http://wayne.edu/favicon.ico" />
+<link href="header.css" rel="stylesheet" type="text/css"  media="all" />
+<link href="template2.css" rel="stylesheet" type="text/css"  media="all" />
+<link href="http://www.med.wayne.edu/includes/new/css/print.css" rel="stylesheet" type="text/css"  media="print"/>
+<style>
+<!--
+div.Section1
+	{page:Section1;}
+.A1 {background-color: #FFCC00}
+#som_container #container #content #table1 tr td ul li blockquote ul li .A1 u {
+	color: #0C5449;
+}
+-->
+</style>
+</head>
+
+<body>
+<div id="header_background">
+<div id="header_container" class="container">
+    <div id="header_search">
+        <div class="divider">
+            <form name="search" id="search" method="get" action="http://google.med.wayne.edu/search">
+	<input type="hidden" name="site" value="my_collection"/>
+    <input type="hidden" name="client" value="my_collection"/>
+    <input type="hidden" name="proxystylesheet" value="my_collection"/>
+    <input type="hidden" name="output" value="xml_no_dtd"/>
+	<input name="q" id="search_q" type="text" class="text" size="15"/> 
+	<input type="submit" name="s" value="Search" class="small" />
+    <!--
+    <div class="search_choices">
+    	<input name="sitesearch" type="radio" value="www.med.wayne.edu" checked="checked" class="header_radio" /> med.wayne.edu
+    </div>
+    -->
+</form>
+
+        </div>
+        
+        <div id="quicklinks">
+            <form name="quick_links" action="get">
+            <select name="url" onchange="location.href=quick_links.url.options[selectedIndex].value">
+        		<option value="">SOM Main Navigation</option>
+        		<option value="http://www.med.wayne.edu/future/">Future Students</option>
+        		<option value="http://www.med.wayne.edu/current/">Current 
+				Students</option>
+        		<option value="http://www.med.wayne.edu/alumni-donors/">Alumni &amp; 
+				Donors</option>
+        		<option value="http://www.med.wayne.edu/faculty/">Faculty</option>
+        		<option value="http://www.med.wayne.edu/administration/">
+				Administration</option>
+        		<option value="http://www.med.wayne.edu/academics/">Academics</option>
+        		<option value="http://www.med.wayne.edu/physicians/">Physicians</option>
+        		<option value="">-----------------</option>
+        		<option value="http://www.med.wayne.edu/education/">Education</option>
+        		<option value="http://www.med.wayne.edu/med-research/">Research</option>
+        		<option value="http://www.med.wayne.edu/patient-care/">Patient 
+				Care</option>
+        		<option value="http://www.med.wayne.edu/community/">Community</option>
+        		<option value="">-----------------</option>
+                <option value="http://www.med.wayne.edu/about/deans-message.asp">
+				Dean's Message</option>
+        		<option value="http://www.med.wayne.edu/about/">About the School</option>
+                <option value="http://wsupg.med.wayne.edu/">Wayne State 
+				University Physician Group</option>
+                <option value="http://www.med.wayne.edu/news_media/prognosis/index.asp">
+				Prognosis E-News</option>
+                <option value="http://directory.med.wayne.edu/advanced_search.cfm">
+				People Search</option>
+                <option value="http://admin.med.wayne.edu/">Executive Leadership 
+				Searches</option>
+        		<option value="http://www.med.wayne.edu/affiliated-hospitals/">
+				Affiliated Hospitals &amp; Training Sites</option>
+            </select>
+            </form>
+        </div>  
+    </div>
+    
+    <div id="som_header">
+        <h1>School of Medicine</h1>
+        <a href="http://wayne.edu/"><img src="http://www.med.wayne.edu/includes/new/images/header_wsu.jpg" width="127" height="86" alt="Wayne State University" class="som_wsu_header" /></a>
+        <a href="http://www.med.wayne.edu/"><img src="http://www.med.wayne.edu/includes/new/images/header_som.jpg" width="415" height="86" alt="School of Medicine" class="som_header_som" /></a>
+    </div>
+</div>
+</div>
+<div id="som_container">
+
+<div id="container" class="container">
+    <div id="header">
+        <h1>Aesculapians Honor Society</h1>
+    </div>
+    
+    <div id="leftColumn">
+        <ul>
+            <li><a href="index.asp">About Us</a></li>
+            <li><a href="calendar.asp">Calendar</a></li>
+            <li><a href="service.asp">Service</a></li>
+			<li><a href="lampoon2012.asp">Lampoon</a></li>
+			<li><a href="facebook.asp">SOM Facebook</a></li>
+			<li><a href="study.asp">Study Guides</a></li>
+            <li><a href="rideshare.asp">Ride Share</a></li>
+			<li><a href="contact.asp">Contact Us</a></li>
+			<li></li>
+        </ul>
+    </div>	
+    
+    <div id="content">
+        <h1>Study Guides&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.webcounter.com"><img border="0" src="http://www.webcounter.com/488ca4b25e444/counter.png"/></a><div style="text-align:center">
+			<div style="text-align:center"><b><font size="4"><a href="YEAR%20ONE.asp">YEAR 
+			ONE </a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="YEAR%20TWO.asp">YEAR TWO</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="USMLE%20STEP%201.asp">USMLE STEP 1</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="YEAR%20THREE.asp">YEAR 3 </a>&nbsp;&nbsp;&nbsp;
+			<a href="YEAR%20FOUR.asp">YEAR 4</a></font></b></div>
+			<div style="text-align:center"></div>
+			<div style="text-align:center"></div>&nbsp;</div></h1>
+    <table border="0" cellpadding="10" cellspacing="0" width="94%" id="table1">
+      <tr> 
+        <td valign="top" align="left" colspan="2"> 
+			<h1><font size="2">Disclaimer:<span style="font-weight: 400">&nbsp;&nbsp; 
+			These guides and old tests are compiled with the intention of 
+			bringing students and groups together by creating a unified resource 
+			with easy and equal accessibility.&nbsp; The great thing about WSU SOM is 
+			the fact that we are interested in helping others succeed and to do 
+			as much as possible to help each other learn.&nbsp; If you believe a 
+			guide or old test has been wrongfully added, please contact Danielle Anstett (<a href="mailto:danstett@med.wayne.edu">danstett@med.wayne.edu</a>).</span></font></h1>
+			<h1 align="center"><font size="3">Want to contribute and help future 
+			students? Please contact us and we'll let you know how!</font></h1>
+			</td>
+      </tr>
+    	<tr>
+        <td valign="top" align="left" colspan="2"> 
+		<p align="center"><font size="6">GENERAL WEBSITES</font></p>
+		<ul>
+			<li><a href="http://www.whonamedit.com">Eponyms</a></li>
+			<li><a href="http://online.epocrates.com">Epocrates</a></li>
+			<li><a href="http://www.lib.wayne.edu/shiffman">Shiffman Library</a></li>
+			<li><a href="http://vpn.med.wayne.edu">VPN</a></li>
+			<li><a href="http://wsu.campusmobility.com">Campus Mobility</a></li>
+			<li><a href="http://www.medscape.com/medicalstudents">Medscape</a> 
+			(medical student section)</li>
+			<li><a href="http://www.studentdoctor.net">StudentDoctor.net</a><ul>
+				<li>
+				<a href="http://www.studentdoctor.net/showthread.php?t=362739">
+				WSUSOM Thread</a></li>
+			</ul>
+			</li>
+			<li><a href="http://med.wayne.edu">Med Home</a></li>
+			<li>
+			<a href="https://pf.med.wayne.edu/public/Student%20Organizations/Organizations-T.%20Eady/?Cmd=contents">
+			Student Orgs Calendar</a></li>
+			<li>
+			<a href="http://www.med.wayne.edu/news_media/streamingmedia/curriculum/ugme/year2.asp">
+			Streaming Lectures</a></li>
+			
+			  <li><a href="http://library.med.utah.edu/WebPath/webpath.html">WebPath</a></li>
+		</ul>
+        </td>
+      </tr>
+    	<tr>
+        <td valign="top" align="left" width="330"> 
+		<p align="center"><font size="6">STUDY GUIDES</font></p>
+			<ul>
+				<li><b><font size="4">Immuno/Micro</font></b><ul>
+					<li>
+			    <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Immuno/Immunomicro - cytokine chart.xls">Immunomicro Cytokine Chart</a></li>
+					<li>
+					<a href="documents/Year Two/Immuno Micro/antibiotic guide.doc">
+				  Antibiotic Guide</a></li>
+					<li>
+				  <a href="documents/Year Two/Immuno Micro/Bacterial Flow Chart.pdf">Bacterial Flow Chart</a></li>
+					<li>
+					<a href="documents/Year Two/Immuno Micro/Bugs and Drugs Tables.xls">Bugs 
+				  and Drugs</a></li>
+					<li>
+				  <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Micro/antibx.clinicaluse.doc">Clinical Antibiotics</a></li>
+					<li>
+				  <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Micro/antimicrobials all the drugs.doc">Clinical Antimicrobials</a></li>
+					<li>
+				  <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Micro/antimicrobials bugdrug colors.xls">Clinical Antimicrobials Chart Colors</a></li>
+					<li>
+				  <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Micro/Bacterial Bone.doc">Bone Joint Bacteria</a></li>
+					<li>
+				  <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Micro/Bacterial Meningitis.doc">Bacterial Meningitis</a></li>
+					<li>
+				  <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Micro/CNS Infections.doc">CNS Infections</a></li>
+					<li>
+				  <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Micro/Immunomicro - Antiparasitic Agents.doc">Anti Parasitic Agents</a></li>
+					<li>
+				  <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Micro/Lower Respiratory Tract Infections.doc">Lower Respiratory Track Infections</a></li>
+					<li>
+				  <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Micro/Upper Respiratory Tract Infections.doc">Upper Respiratory Track Infections</a></li>
+					<li>
+				  <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Micro/micro bioterror.xls">Bio-Terror</a></li>
+					<li>
+				  <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Micro/micro CNS brain viruses.xls">CNS Brain Viruses</a></li>
+					<li>
+				  <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Micro/micro CNS bugs n drugs.xls">CNS Bugs and Drugs</a></li>
+					<li>
+				  <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Micro/micro gi bugs per.doc">GI Bugs</a></li>
+					<li>
+				  <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Micro/micro respiratory bugs.xls">Respiratory Bugs</a></li>
+					<li>
+				  <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Micro/micro respiratory viruses.xls">Respiratory Viruses</a></li>
+					<li>
+				  <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Micro/micro STD big 3 bugs.doc">STD</a></li>
+					<li>
+				  <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Micro/microlabreview.doc">Micro Lab Review</a></li>
+					<li>
+					<a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Micro/OB.perinatal.doc">OB/Perinatal Infections</a></li>
+				</ul></li>
+				<br /><li><b><font size="4">Psychiatry</font></b><ul>
+				<li>
+				<a href="documents/Year Two/Developmental Stages.doc">Developmental Stages</a></li>
+                <li> <a href="documents/Year Two/Psych combined midterm outline.doc">Psych combined midterm outline</a></li>
+                <li> <a href="documents/Year Two/Psych notes outline.doc">Psych notes outlined</a></li>
+                <li><a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Random/Katie Green's Mneumonics/psych pharm drug mnemonics.doc">Psychiatry</a> MNEMONIC</li>
+			    </ul>
+				</li>
+				<br /><li><b><font size="4">Pharmacology</font></b><ul>
+					<li>
+				  <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Pharm/adrenergics chart.doc">Adrenergics Chart</a></li>
+					<li>
+				  <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Pharm/Cholinergics Chart.doc">Cholinergics Chart</a></li>
+					<li>
+				  <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Pharm/CNS Depressants.doc">CNS Depressants</a></li>
+					<li>
+				  <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Pharm/diuretics.doc">Diuretics</a></li>
+					<li>
+				  <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Pharm/drugs of abuse.doc">Drugs of Abuse</a></li>
+					<li>
+				  <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Pharm/Metabolism etc.doc">Metabolism</a></li>
+					<li>
+			    <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Pharm/Pharm - psychiatry drugs.xls">Psychiatry Drugs</a></li>
+					<li>
+			    <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Pharm/Pharm - Toxicology charts.xls">Toxicology Charts</a></li>
+					<li>
+					<a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Pharm/Poisons (last unit).doc">Poisons</a></li>
+					<li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Random/Katie Green's Mneumonics/cholinergic drug mnemonics.doc">Cholinergic Drugs</a> MNEMONIC</li>
+					<li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Random/Katie Green's Mneumonics/antibiotic stuff.doc">Antibiotics</a> MNEMONIC</li>
+				</ul>
+				</li>
+				<br /><li><b><font size="4">Pathobiology</font></b>
+				<ul>
+					<li>
+				  <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/PathBio/ARTERIAL DISESES chart (Amy Sanghvi).doc">Arterial Diseases</a></li>
+					<li>
+				  <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/PathBio/Genetic Diseases.doc">Genetic Diseases</a><br /><br />Websites:
+				      <ul>
+				        <li><a href="http://webslide.med.wayne.edu/">WSU Virtual Slides</a></li>
+				        <li> <a href="http://www.path.uiowa.edu/virtualslidebox/iowa_histopathology/content_index_db.html"> Histopathology Virtual Slides</a></li>
+				        
+			          </ul>
+			      </li>
+				</ul>
+				<br /><li><b><font size="4">Respiratory</font></b><ul>
+					<li>
+					<a href="year2stuff/Year%202/Year%202%20Resources/Respiratory.doc">
+					Respiratory review</a></li>
+					<li>Pharmacology<ul>
+						<li>
+					  <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Pulmonary/Pharm/Respiratory Drugs.doc">Respiratory Drugs</a></li>
+						<li>
+					  <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Pulmonary/Pharm/TB drugs.doc">TB Drugs</a></li>
+						<li>
+						<a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Pulmonary/Resp Path.ppt">Res Path slide</a>
+						</li>
+					</ul></li>
+				</ul></li>
+				<br /><li><b><font size="4">Hematology</font></b><ul>
+				<li>
+				<a href="year2stuff/Year%202/Year%202%20Resources/Hematology.doc">
+				Hematology review</a></li>
+				<li>
+				<a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Heme/Heme - CancersSean.xls">Cancer Chart</a></li>
+				<li>Pharmacology<ul>
+					<li>
+					<a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Heme/Pharm/BloodDrugsChart.doc">Blood Drugs Chart</a></li>
+				</ul></li>
+			</ul></li>
+				<br /><li><b><font size="4">Cardiovascular</font></b><ul>
+					<li>
+				  <a href="year2stuff/Year%202/Year%202%20Resources/Cardio.doc">
+					Cardio review</a></li>
+					<li>
+				  <a href="year2stuff/Year%202/Year%202%20Resources/Cardio%20HY.doc">
+					Cardio HY</a></li>
+					<li>
+				  <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Cardio/ARTERIAL DISESES chart (Amy Sanghvi, same as PathBio).doc">Arterial Diseases Chart</a></li>
+					<li>
+				  <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Cardio/valveshiz.xls">Valve Charts</a></li>
+					<li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Cardio/Pharm/Clinical Pharm1 (sean).doc">Clinical Pharmacology</a></li>
+                    <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Cardio/Pharm/Outline and objectives for Clinical CV pharmacology.doc">Outline Objectives</a></li>
+                    <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Cardio/Pharm/Pharm - cardio - CV clinical pharm.doc">Cardio Pharmacology</a></li>
+                    <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Cardio/Pharm/pharm cardio big table.doc">Cardio Table</a></li>
+                    <li><a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Random/Katie Green's Mneumonics/cardio pharm.doc">Cardiology</a> MNEMONIC</li>
+                    <br />
+Websites:
+<ul>
+  <a href="http://www.blaufuss.org/">Heart Sounds and Murmurs</a>
+</ul>
+				</ul></li><br />
+			  <blockquote>&nbsp; </blockquote>
+			</ul>
+        </td>
+        <td width="293" align="left" valign="top"> 
+			<p align="center">&nbsp;</p>
+			<ul>
+			  <br /><li><b><font size="4">Neurology</font></b>
+			    <ul>
+			      <li> <a href="year2stuff/Year%202/Year%202%20Resources/Neuro.doc"> Neuro review</a></li>
+			      <li> <a href="year2stuff/Year%202/Year%202%20Resources/Neuro%20HY.doc"> Neuro HY</a></li>
+			      <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Neuro/Pathophys - Neuro - Autoimmune Diseases In Neurology.doc">Autoimmune Diseases</a></li>
+			      <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Neuro/Pathophys - Neuro - basal ganglia.doc">Basal Ganglia</a></li>
+			      <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Neuro/Pathophys - Neuro - coma and sleep.doc">Coma and Sleep</a></li>
+			      <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Neuro/Pathophys - Neuro - CVD.doc">CVD</a></li>
+			      <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Neuro/Pathophys - Neuro - electrophys.doc">Electrophysiology</a></li>
+			      <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Neuro/Pathophys - Neuro - Infectious Diseases of the Nervous System.doc">Infectious Diseases</a></li>
+			      <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Neuro/Pathophys - Neuro - Infectious Diseases of the Nervous System with pics.doc">Infectious Diseases w/ Pics</a></li>
+			      <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Neuro/Pathophys - Neuro - tumors.doc">Tumors</a></li>
+		        </ul>
+		      </li>
+			  <br /><li><b><font size="4">Dermatology</font></b>
+			    <ul>
+			      <li> <a href="year2stuff/Year%202/Year%202%20Resources/Derm.doc"> Derm review</a></li>
+			      <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Derm/dermopathophysiology.doc">Pathophysiology - Dermatology</a></li>
+			      <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Derm/DermSheet (Sean).xls">Dermatology Chart</a></li>
+			      <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Derm/Pathophys - Derm - Peds.doc">Pathophysiology - Dermatology - Peds</a></li>
+			      <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Derm/Pathophys - Derm - Study sheet.doc">Pathophysiology - Dermatology - Study Sheet</a></li>
+			      <li><a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Random/Katie Green's Mneumonics/derm exam.doc">Dermatology</a>MNEMONIC</li>
+		        </ul>
+		      </li>
+		    </ul>
+		<ul>
+		  <li><b><font size="4">Connective Tissue</font></b>
+		    <ul>
+		      <li> <a href="year2stuff/Year%202/Year%202%20Resources/CT.doc">CT 
+		        review</a></li>
+		      <li> <a href="year2stuff/Year%202/Year%202%20Resources/CT%20HY.doc"> CT HY</a></li>
+		      <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/CT/arthritis (sean).doc">Arthritis</a></li>
+		      <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/CT/bone tumors (Amy Sanghvi).doc">Bone Tumors</a></li>
+		      <li> <a href="../whso/year2stuff/Year%202/CT/ConnectiveTissue.pdf">Connective Tissue</a></li>
+		      <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/CT/Pathophys - CT - bone and soft tissue tumors.doc">Pathophysiology - CT</a></li>
+		      <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/CT/Pathophys - CT - elabs.doc">Pathophysiology - CT Lab</a></li>
+		      <li><a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Random/Katie Green's Mneumonics/drugs for CT unit.doc">Connective Tissue</a> MNEMONIC</li>
+		      </ul>
+		    </li>
+		 <br /> <li><b><font size="4">Endocrine</font></b>
+		    <ul>
+		      <li> <a href="year2stuff/Year%202/Year%202%20Resources/Endocrine.doc"> Endocrine review</a></li>
+		      <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Endocrine/Pathophys - Endocrine - Female Reproductive Tract.doc">Pathophysiology - Endocrine - Female</a></li>
+		      <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Endocrine/Pathophys - Endocrine - lipoproteins.doc">Pathophysiology - Endocrine - Lipoproteins</a></li>
+		      <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Endocrine/Pathophys - Endocrine - Thyroid diseases.doc">Pathophysiology - Endocrine - Thyroid</a></li>
+		      <li>Pharmacology
+		        <ul>
+		          <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Endocrine/Pharm/Pharm - Endocrine - Anti-diabetics.doc">Endocrine - Anti-diabetic</a></li>
+		          </ul>
+		        </li>
+		      </ul>
+		    </li>
+		  <br /><li><b><font size="4">Renal</font></b>
+		    <ul>
+		      <li> <a href="year2stuff/Year%202/Year%202%20Resources/Renal.doc"> Renal review</a></li>
+		      <li> <a href="year2stuff/Year%202/Year%202%20Resources/Renal%20HY.doc"> Renal HY</a></li>
+		      <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Renal/Pathophys - Renal - glomerular pathology.doc">Glomerular Pathology</a></li>
+		      <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Renal/Pathophys - Renal - Systemic_hereditary_vascular.doc">Systemic Hereditary Vascular</a></li>
+		      <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Renal/Pathophys - Renal - Tubulointerstitial disease.doc">Tubulointerstitial Disease</a></li>
+		      <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Renal/Pathophys - Renal - UT tumors.doc">UT Tumors</a></li>
+		      <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/Renal/renal pathophys study cards.doc">Study Cards</a></li>
+		      <br />
+		      Websites:
+		      <ul>
+		        <a href="http://www.cellphys.ubc.ca/undergrad_files/urine.swf">Renal Animation</a>
+		        </ul>
+		      </ul>
+		    </li>
+		  <br />
+		  <li><b><font size="4">Gastrointestinal</font></b>
+		    <ul>
+		      <li><a href="year2stuff/Year%202/Year%202%20Resources/GI.doc">GI 
+		        review</a></li>
+		      <li> <a href="year2stuff/Year%202/Year%202%20Resources/GI%20HY.doc"> GI HY</a></li>
+		      </ul>
+		    </li>
+		 <br /> <li><b><font size="4">Clinical Medicine/PD</font></b>
+		   <ul>
+		     <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/ClinMed and PD/Study guide for CM2 Exam 1.doc">Clinical Medicine Review I</a></li>
+		     <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/ClinMed and PD/CM2 Review2.doc">Clinical Medicine Review II</a></li>
+		     <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Year 2/ClinMed and PD/PD Revised Final (easy study mode).doc">Performance Checklist</a></li>
+		     <li> <a href="documents/Year%20Two/ClinMed%20PD/H&amp;P%20-%20Sample%20-%20Partial%20Exam.doc">H&amp;P Sample - Partial</a></li>
+		     <li> <a href="documents/Year%20Two/ClinMed%20PD/H&amp;P%20-%20Sample%20-%20Complete%20Exam.doc">H&amp;P Sample - Complete</a></li>
+		     <li> <a href="documents/Year Two/ClinMed PD/Hx&amp;P_Template.dot">H&amp;P Template</a></li>
+		     <li> <a href="documents/Year%20Two/ClinMed%20PD/A%20GENERIC%20FORMAT%20FOR%20PHYSICAL%20DIAGNOSIS%20WRITE%20UPS.doc"> Generic Format for PD Write Ups</a></li>
+		     </ul>
+		   </li>
+		 </ul>
+		<blockquote>
+		  <p>Websites:</p>
+		  <blockquote>
+		    <p><a href="http://www.scrubsandbeyond.com/medical-information-a-physical-exam-study-guide.aspx">Physical Exam Study Guide</a></p>
+		    </blockquote>
+		  </blockquote>
+<p>&nbsp;</p>
+		<ul>
+		  <br />
+		  </ul></td>
+      </tr>
+    	<tr>
+        <td valign="top" align="left" width="330" height="434"> 
+		<p align="center"><font size="6">EXAMS</font></p>
+        <address align="center">
+        Disclaimer: These exams are
+        </address>
+        <address align="center">
+        considered out of date.
+        </address>
+        <ul>
+          <li><b>Immuno/Micro</b>
+            <ul>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/IMMUNO/IMMIC297.pdf">Immunology II 1997</a> --&gt; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/IMMUNO/immic297.htm">Answers</a></li>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/IMMUNO/IMMIC397.pdf">Immunology III 1997</a> --&gt; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/IMMUNO/immic397.htm">Answers</a></li>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/IMMUNO/IMMIC497.pdf">Immunology IV 1997</a> --&gt; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/IMMUNO/immic497.htm">Answers</a></li>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/IMMUNO/immic198.pdf">Immunology I 1998</a> --&gt; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/IMMUNO/immic198.htm">Answers</a></li>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/IMMUNO/immic298.pdf">Immunology II 1998</a> --&gt; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/IMMUNO/immic298.htm">Answers</a></li>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/IMMUNO/immic398.pdf">Immunology III 1998</a> --&gt; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/IMMUNO/immic398.htm">Answers</a></li>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/IMMUNO/immic498.pdf">Immunology IV 1998</a> --&gt; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/IMMUNO/immic498.htm">Answers</a></li>
+            </ul>
+          </li>
+          <li><b>Psychiatry</b>
+            <ul>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/PSYCH/Psych1.99.PDF">Psychology I 1998</a> --&gt; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/PSYCH/psych198.htm">Answers</a></li>
+            </ul>
+          </li>
+          <li><b>Pharmacology</b>
+            <ul>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/PHARM/Phar298.PDF">Pharmacology II 1998</a> --&gt; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/PHARM/phar298.htm">Answers</a></li>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/PHARM/Phar398.PDF">Pharmacology III 1998</a> --&gt; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/PHARM/phar398.htm">Answers</a></li>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/PHARM/Phar199.PDF">Pharmacology I 1999</a> --&gt; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/PHARM/phar199.htm">Answers</a></li>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/PHARM/Phar299.PDF">Pharmacology II 1999</a> --&gt; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/PHARM/phar299.htm">Answers</a></li>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/PHARM/Phar399.PDF">Pharmacology III 1999</a> --&gt; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/PHARM/phar399.htm">Answers</a></li>
+            </ul>
+          </li>
+          <li><b>Pathobiology</b>
+            <ul>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/PATHOL/Path198.PDF">Pathology I 1998</a> --&gt; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/PATHOL/path198.htm">Answers</a></li>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/PATHOL/Path298.PDF">Pathology II 1998</a> --&gt; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/PATHOL/path298.htm">Answers</a></li>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/PATHOL/Path398.PDF">Pathology III 1998</a> --&gt; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/PATHOL/path398.htm">Answers</a></li>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/PATHOL/Path199.PDF">Pathology I 1999</a> --&gt; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/PATHOL/path199.htm">Answers</a></li>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/PATHOL/Path299.PDF">Pathology II 1999</a> --&gt; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/PATHOL/path299.htm">Answers</a></li>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/PATHOL/Path399.PDF">Pathology III 1999</a> --&gt; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/PATHOL/path399.htm">Answers</a></li>
+            </ul>
+          </li>
+          <li><b>Respiratory</b>
+            <ul>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/RESP/Resp98.PDF">Respiratory 1998</a> --&gt; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/RESP/resp98.htm">Answers</a></li>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/RESP/Resp99.PDF">Respiratory 1999</a> --&gt; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/RESP/resp99.htm">Answers</a></li>
+            </ul>
+          </li>
+          <li><b>Hematology</b>
+            <ul>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/HEMATOLOGY/Hemat.98.PDF">Hematology 1998</a> --&gt;&nbsp; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/HEMATOLOGY/hemat98.htm">Answers</a></li>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/HEMATOLOGY/Heme.99.PDF">Hematology 1999</a> --&gt;&nbsp; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/HEMATOLOGY/heme99.htm">Answers</a></li>
+            </ul>
+          </li>
+          <li><b>Cardiovascular</b>
+            <ul>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/CARDIO/Cardio97.PDF">Cardiology 1997</a> --&gt; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/CARDIO/cardio97.htm">Answers</a></li>
+            </ul>
+          </li>
+          <li><b>Neurology</b>
+            <ul>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/NEURO/Neur297.PDF">Neurology II 1997</a> --&gt; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/NEURO/neur297.htm">Answers</a></li>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/NEURO/Neur298.PDF">Neurology II 1998</a> --&gt; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/NEURO/neur298.htm">Answers</a></li>
+            </ul>
+          </li>
+          <li><b>Dermatology/Connective Tissue</b>
+            <ul>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/DERMATOLOGY/Ctderm98.PDF">Dermatology 1998</a> --&gt; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/DERMATOLOGY/ctderm98.htm">Answers</a></li>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/DERMATOLOGY/Ctderm99.PDF">Dermatology 1999</a> --&gt; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/DERMATOLOGY/ctderm99.htm">Answers</a></li>
+            </ul>
+          </li>
+          <li><b>Endocrine</b>
+            <ul>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/ENDOCRINE/Endo.99.PDF">Endocrine 1999</a> --&gt; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/ENDOCRINE/endo99.htm">Answers</a></li>
+            </ul>
+          </li>
+          <li><b>Renal</b>
+            <ul>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/RENAL/renal98.pdf">Renal 1998</a> --&gt; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/RENAL/renal98.htm">Answers</a></li>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/RENAL/renal99.pdf">Renal 1999</a> --&gt; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/RENAL/renal99.htm">Answers</a></li>
+            </ul>
+          </li>
+          <li><b>Gastrointestinal</b>
+            <ul>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/GI/Gastro.98.PDF">Gastro 1998</a> --&gt;&nbsp; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/GI/gastro98.htm">Answers</a></li>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/GI/Gi.99.PDF">Gastro 1999</a> --&gt;&nbsp; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/GI/gi99.htm">Answers</a></li>
+            </ul>
+          </li>
+          <li><b>Clinical Medicine/PD</b>
+            <ul>
+              <li> <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/EBM/Ebm98.PDF">EBM 1998</a> --&gt; <a href="WHSO exam &amp; info/WHSO year2stuff/Yr2-EXAMS/EBM/ebm98.htm">Answers</a></li>
+            </ul>
+          </li>
+        </ul>        <p align="center">&nbsp;</td>
+        <td valign="top" align="left" height="434"> 
+		<p align="center"><font size="6">Advice</font></p>
+			<ul>
+				<li><b>Immuno/Micro</b></li>
+				<li><b>Psychiatry</b></li>
+				<li><b>Pharmacology</b></li>
+				<li><b>Pathobiology</b></li>
+				<li><b>Respiratory</b></li>
+				<li><b>Hematology</b></li>
+				<li><b>Cardiovascular</b></li>
+				<li><b>Neurology</b></li>
+				<li><b>Dermatology</b></li>
+				<li><b>Connective Tissue</b></li>
+				<li><b>Endocrine</b></li>
+				<li><b>Renal</b></li>
+				<li><b>Gastrointestinal</b></li>
+				<li><b>Clinical Medicine/PD</b></li>
+			</ul>
+		<p align="center">&nbsp;</td>
+      </tr>
+    </table>
+    </div>
+</div>
+
+</div>
+<div id="som_footer">
+   	<div class="container">
+    <div id="som_policy"><a href="http://wayne.edu/policies/" target="_blank" title="View the Copyright and Privacy Policy">
+		Copyright and Privacy Policy</a></div>
+    <div id="som_copyright">Wayne State University © 2008</div>
+    </div>
+</div>
+</body>
+</html>
